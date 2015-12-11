@@ -122,21 +122,21 @@ See the examples ipython notebook in [examples/](https://github.com/kidpixo/mult
     0        4          0.488786           2  0.1  0.9
     1        2          0.245930           1  0.3  0.5
     2        0          0.047445           1  0.5  0.1
-            1          0.228318           1  0.5  0.3
-            2          0.962175           1  0.5  0.5
-            4          0.706003           1  0.5  0.9
+             1          0.228318           1  0.5  0.3
+             2          0.962175           1  0.5  0.5
+             4          0.706003           1  0.5  0.9
     3        1          0.885819           1  0.7  0.3
-            2          0.757769           1  0.7  0.5
+             2          0.757769           1  0.7  0.5
     4        4          0.726222           1  0.9  0.9
 
     # assemble one numpy array from the columns z_average
     mbdf.col_df_to_array('z_average')[  ]
 
     array([[        nan,         nan,         nan,         nan,  0.48878639],
-        [        nan,         nan,  0.24592997,         nan,         nan],
-        [ 0.04744482,  0.22831788,  0.96217527,         nan,  0.70600342],
-        [        nan,  0.88581869,  0.75776871,         nan,         nan],
-        [        nan,         nan,         nan,         nan,  0.72622249]])
+           [        nan,         nan,  0.24592997,         nan,         nan],
+           [ 0.04744482,  0.22831788,  0.96217527,         nan,  0.70600342],
+           [        nan,  0.88581869,  0.75776871,         nan,         nan],
+           [        nan,         nan,         nan,         nan,  0.72622249]])
 
     # all the columns to numpy array
     mbdf.all_df_to_array().keys()

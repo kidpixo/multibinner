@@ -39,7 +39,7 @@ There are also two useful functions:
 
 ## Example
 
-See the examples ipython notebook in [examples/](https://github.com/kidpixo/multibinner/examples/) or the super basic one here:
+See the examples ipython notebook in [examples/](https://github.com/kidpixo/multibinner/tree/master/examples) or the super basic one here:
 
 ```python
     import pandas as pd

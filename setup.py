@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='multibinner',
-      version='0.1',
+      version='0.0.1',
       description='dataset multibinner based on pandas',
       author="Mario D'Amore",
       author_email='kidpixo☄@gmail.com',

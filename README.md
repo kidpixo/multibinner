@@ -8,13 +8,17 @@ Multibinner requires pandas and numpy
 
 ## Installation
 
-Clone this repository and set the paths yourself or
+Clone this repository and set the paths yourself or use the git [support in pip](https://pip.pypa.io/en/stable/reference/pip_install/#git)
 
     pip install git+git://github.com/kidpixo/multibinner.git
-
-or 
-
     pip install git+https://github.com/kidpixo/multibinner.git
+
+    pip install -e git+https://github.com/kidpixo/multibinner.git#egg=Package
+    pip install -e git+git://github.com/kidpixo/multibinner.git#egg=Package
+
+or an universal method without the need of git on your system:
+
+    pip install --upgrade https://github.com/kidpixo/multibinner/tarball/master
 
 ## The problem
 

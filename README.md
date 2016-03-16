@@ -26,7 +26,7 @@ The problem I want to solve is:
 
     I have a huge pandas.DataFrame.
     I want to rebin some columns.
-    I want the oupt of custom function on those bins.
+    I want the ouput of custom function on those bins.
 
 The Multibinner module solve this problems. It accepts as input:
 
